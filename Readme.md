@@ -21,7 +21,7 @@ Following https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-ap
 ## Usage
 
 ````
-pip install -e git+ssh://git@gitlab.com/olasearch/ola_spellchecker.git#egg=ola_spellchecker
+pip install -e git+ssh://git@github.com/rmdort/ola_spellchecker.git#egg=ola_spellchecker
 ````
 
 ## Requirements
