@@ -6,7 +6,8 @@ http://www.katrinerk.com/courses/python-worksheets/language-models-in-python
 
 1. Need to match word case (DONE)
 2. Preserve spaces (DONE)
-3. Handle multiple spelling mistakes in one sentence `Ther is nthing wrng` (DONE)
+3. Word not in corpus wont be spell corrected
+4. Handle multiple spelling mistakes in one sentence `Ther is nthing wrng` (DONE)
 
 ### Questions
 Following https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api
