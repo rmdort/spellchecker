@@ -7,7 +7,7 @@ import time
 # print (parser.parse('I am 21 years old. Can I hire 2 fdw?'))
 
 # Create an instance of the class
-spellchecker = SpellCheck(corpus='/Users/vinay/Downloads/spellchecker-corpus/spellcheck-corpus.txt')
+spellchecker = SpellCheck(corpus='spellcheck-corpus.txt')
 
 start = time.clock()
 print (spellchecker.correct('Can i hire a few from united statesd'))

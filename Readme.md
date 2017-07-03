@@ -36,7 +36,7 @@ pip install -e git+ssh://git@gitlab.com/olasearch/ola_spellchecker.git#egg=ola_s
 from ola_language_tools import SpellCheck
 
 # Create an instance of the class
-spellchecker = SpellCheck()
+spellchecker = SpellCheck(corpus='spellcheck-corpus.txt')
 
 print spellchecker.correct('Wher is everone?')
 ````
